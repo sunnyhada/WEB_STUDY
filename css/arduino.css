@@ -1,0 +1,156 @@
+body {
+    margin : 0px;
+    padding: 0px;
+}
+
+.header {
+    background: steelblue;
+    width : 100%;
+    height : 50px;
+}
+
+.container {
+    width : 980px;
+    height: auto;
+    margin : auto;
+    padding: 10px;
+    padding-left: 120px;
+}
+
+.container-left{
+    padding-top : 0px;
+    padding-bottom : 5px;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo img{
+    display:block;
+}
+
+.menu {
+    float : left;
+}
+
+.menu-item{
+    float : left;
+    margin-left: 5px;
+    margin-right : 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 14pt;
+    color : white;
+}
+
+.menu-item a{
+    color : white;
+    font-style : revert;
+    text-decoration: none;
+}
+
+a:link {text-decoration: none; color: white;}
+a:visited {text-decoration: none; color: white;}
+a:active {text-decoration: none; color: white;}
+a:hover {text-decoration: underline; color: white;}
+
+.clearfix::after {
+    content : "";
+    display: block;
+    clear: both;
+}
+
+.home-top {
+    margin : 0px;
+    height: 800px;
+    background-image:url("/WEB_STUDY/img/arduino_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-state-top {
+    width : 980px;
+    height : 200px;
+    padding: 80px 260px;
+    margin-bottom : 320px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+    font-family: Georgia;
+    color: steelblue;
+    display:block;
+}
+
+.head-state-bottom h1 {
+    width : 980px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    margin:10px 260px;
+    display:block;
+}
+
+.head-state-bottom p {
+    width : 980px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    margin:10px 260px;
+    display:block;
+}
+
+.home-courses {
+    width : auto;
+    height: 600px;
+    background: steelblue;
+}
+
+.courses {
+    float : left;
+    width: 980px;
+    height: 600px;
+    margin: 30px 300px;
+}
+
+.course {
+    float : left;
+    width: 300px;
+    height: 400px;
+    padding : 20px 10px;
+}
+
+.course img{
+    width : 256px;
+    height : 256px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.courses-title{
+    width : 980px;
+    height: auto;
+    padding : 30px;
+    margin-left: 240px;
+    color: white;
+    font-weight: bold;
+    font-size:30pt;
+    text-align: center;
+    display:block;
+}
+
+.course-title{
+    width : 256px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    display:block;
+}
