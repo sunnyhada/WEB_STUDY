@@ -1,0 +1,156 @@
+/*COMMON*/
+body {
+    background: #dce7e8;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*BTN*/
+.btn {
+    display: flex;
+    height: 60px;
+    background: #c7eb5b;
+    border-radius: 4px;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    color: #333333;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.btn:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*CARD*/
+.card {
+    background: white;
+    max-width: 680px;
+    margin: 5% auto;
+    box-shadow: 0 0 20px rgba(18,103,120,.3);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card .card--top {
+    padding: 30px;
+}
+
+.card .card--top .title {
+    color: #32a1a1;
+}
+
+.card .card--top .sub-title {
+    color: #c7eb5b;
+}
+
+.card .card--top .description {
+    color: #a5a5a5;
+    line-height: 2.0;
+}
+
+.card .card--bottom {
+    color: #fff;
+    display: flex;
+}
+
+.card .card--bottom .bottom-left {
+    background : #32a1a1;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 0 0 0 10px;
+}
+
+.card .card--bottom .bottom-left a{
+    color: #ffffff;
+}
+
+.card--bottom .bottom-left .fee{
+    margin-bottom: 10px;
+}
+
+.card--bottom .bottom-left .money{
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+}
+
+.card--bottom .bottom-left .per-month{
+    font-size: 16px;
+    display: inline;
+    color: rgba(255,255,255,.5);
+}
+
+.card--bottom .bottom-left .description{
+    margin-bottom: 30px;
+}
+
+.card .card--bottom .sub-title{
+}
+
+.card--bottom .description{
+    margin-bottom: 20px;
+}
+
+
+.card .card--bottom .bottom-right {
+    background: #63d4d4;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 0 0 10px 0;
+}
+
+@media (max-width: 680px) {
+    .card {
+        margin: 48px 24px;
+    }
+    .card .card--bottom  {
+        display: block;
+    }
+
+    .card .card--bottom .bottom-left {
+        border-radius: unset;
+        width: 100%;
+    }
+
+    .card .card--bottom .bottom-right {
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+    }
+}
