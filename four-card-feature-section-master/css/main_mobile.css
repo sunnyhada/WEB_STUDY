@@ -1,0 +1,27 @@
+.section--head .letter-box {
+    max-width: 320px;
+}
+
+.section--head .title {
+    font-size: 28px;
+}
+
+.section--head .description{
+    font-size: 18px;
+}
+
+.section--cards {
+    align-items: center;
+}
+
+.section--cards .cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px;
+    max-width: none;
+    align-items: center;
+}
+
+.section--cards .card {
+    max-width: none;
+}

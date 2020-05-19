@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="all and (max-width:720px)" href="./css/main_mobile.css">
+</head>
+<body>
+<div class="body__container">
+
+    <section class="section section--head">
+        <div class="letter-box">
+            <div class="title light">Reliable, efficient delivery</div>
+            <div class="title">Powered by Technology</div>
+            <div class="description">Our Artificial Intelligence powered tools use millions of project data points
+                to ensure that your project is successful
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--cards">
+        <ul class="cards">
+            <li class="card supervisor">
+                <a href="index.html?_ijt=supervisor">
+                    <div class="card--title">Supervisor</div>
+                    <div class="card--description">Monitors activity to identify project roadblocks</div>
+                    <div class="card--icon clearfix"><img src="./images/icon-supervisor.svg" alt="supervisor"></div>
+                </a>
+            </li>
+            <div class="team_builder_and_karma">
+                <li class="card team-builder">
+                    <a href="index.html?_ijt=team-builder">
+                        <div class="card--title">Team Builder</div>
+                        <div class="card--description">Scans our talent network to create the optimal team for your
+                            project
+                        </div>
+                        <div class="card--icon clearfix"><img src="./images/icon-team-builder.svg" alt="team-builder">
+                        </div>
+                    </a>
+                </li>
+                <li class="card karma">
+                    <a href="index.html?_ijt=karma">
+                        <div class="card--title">Karma</div>
+                        <div class="card--description">Regularly evaluates our talent to ensure quality</div>
+                        <div class="card--icon clearfix"><img src="./images/icon-karma.svg" alt="karma"></div>
+                    </a>
+                </li>
+            </div>
+            <li class="card calculator">
+                <a href="index.html?_ijt=Calculator">
+                    <div class="card--title">Calculator</div>
+                    <div class="card--description"> Uses data from past projects to provide better delivery estimates
+                    </div>
+                    <div class="card--icon clearfix"><img src="./images/icon-calculator.svg" alt="calculator"></div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">sunny</a>.
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>

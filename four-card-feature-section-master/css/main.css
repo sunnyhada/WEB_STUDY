@@ -1,0 +1,136 @@
+/*COMMON*/
+.body__container {
+    background: #fafafc;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.section {
+    position: relative;
+}
+
+.clearfix::after{
+    content: "";
+    display: flex;
+    clear: both;
+}
+/*HEAD*/
+.section--head {
+    align-items: center;
+    height: 320px;
+    display: flex;
+
+}
+
+.section--head .letter-box{
+    max-width: 580px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.section--head .title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: #3e3e47;
+}
+
+.section--head .light{
+    font-weight: unset;
+    letter-spacing: unset;
+}
+
+.section--head .description{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px auto 0;
+    color: #a9a9a9;
+}
+
+/*CARDS*/
+.section--cards {
+    margin-bottom: 20px;
+}
+
+.section--cards .cards{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    align-items: center;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.section--cards .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(38, 74, 181,.25);
+    margin: 10px;
+    max-width: 420px;
+    padding: 32px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section--cards .card a{
+    text-decoration: none;
+}
+
+.section--cards .card a:hover::before{
+    content: "";
+    background: rgba(0,0,0,.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section--cards .card .card--title {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #3e3e47;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.section--cards .card .card--description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #a9a9a9;
+    margin-bottom: 32px;
+}
+
+.section--cards .card .card--icon {
+}
+
+.section--cards .card .card--icon img{
+    float: right;
+}
+
+.team_builder_and_karma{
+    display: grid;
+}
+
+.section--cards .supervisor{
+    border-top: 4px solid #35d4b1;
+}
+
+.section--cards .team-builder{
+    border-top: 4px solid #ed4e4e;
+}
+
+.section--cards .karma{
+    border-top: 4px solid #ffe32e;
+}
+
+.section--cards .calculator{
+    border-top: 4px solid #60c7f0;
+}
+
+/*footer*/
+footer {
+    padding: 20px;
+}
